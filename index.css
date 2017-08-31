@@ -1,0 +1,287 @@
+body{
+	margin:0 ;
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 576px) {
+	#main_background_index{
+	background-image: url("/web/img/index_background_phone.jpg");
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 811px;
+	margin-top: -100px;
+    position: relative; /* Declared position allows for location changes */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.list-item{
+	 margin-left: 16px;
+}
+
+.list-heading{
+    margin-left: 16px;
+}
+
+.how_it_works h5{
+	margin-top: 0;
+	margin-left: 16px;
+}	
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+.app_content{
+	height: auto;
+	min-width: 100%;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+
+.app_img img {display:none}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { ... }
+
+
+.btn-space {
+    margin-right: 5px;
+}
+
+.container-fluid{
+	  top: -130px; /* Moves the image 2px closer to the top of the page */
+}
+
+#main_background_index{
+	background-image: url("/web/img/index_background.jpg");
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 811px;
+	margin-top: -100px;
+    position: relative; /* Declared position allows for location changes */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#container{
+      margin-top: 350px;
+      min-width: 100%;
+      text-align: center;
+}
+
+.main_text{
+	position: relative;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+    }
+
+.below_main_text{
+	position: relative;
+	font-size-adjust: 0.6;
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	margin-top: 40px;
+	margin-left: 16px;
+	margin-right: 16px;
+	text-shadow: 2px 2px 4px #000000;
+    }     
+
+.find_food{
+	position: relative;
+	margin-top: 40px;
+}
+
+.darkBG{
+	background: #999;
+}
+
+#workflow{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#workflow .first .heading{
+    margin:16px;
+	color: #007bff;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#workflow .first .under_heading{
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+#app {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.app_content{
+	height: auto;
+	min-width: 100%;
+	background: #e9ebec;
+}
+
+.app_img{
+	float: right;
+	margin-right: 100px;
+}
+
+.container{
+    background: #e9ebec;
+}
+
+.heading_text{
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	color: #007bff;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-bottom: 50px;
+}
+
+.heading_text h3{
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+
+.ins_app{
+	  margin-bottom: 20px;
+}
+
+.how_it_works{
+	margin-top: 20px;
+	display: flex;
+	align-items: left;
+    justify-content: left;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.how_it_works h5{
+	margin-top: 16px;
+	margin-left: 16px;
+}
+
+.google_play{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.get_android{
+	margin-bottom: 16px;
+}
+
+.android{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.android h5{
+	margin-top :12px;
+	margin-left: 12px;
+}
+
+.ins_desktop{
+	    margin-top: 24px;
+		display: flex;
+		color: #808080;
+	    align-items: center;
+        justify-content: center;
+}
+
+/*bottom site map*/
+
+#site{
+	margin-top: 125px;
+	padding-bottom: 150px;
+	background: #e9ebec;
+	height: auto;
+}
+
+#con{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#con_1{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.row{
+	min-width: 100%;
+	height: auto;
+}
+
+.brand_name{
+	text-align: center;
+	margin-top: 50px;
+	color: #007bff;
+}
+
+.company_name{
+	text-align: center;
+	color: #808080;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+.list{
+	margin-top: 50px;
+}
+
+.list .android .fa{
+	color: #007bff;
+}
+
+.list .android h6{
+     margin-top: 8px;
+     margin-left: 8px;
+     color: #808080;
+}
+
+.list-heading{
+    color: #808080;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.list-item{
+      	margin-top: 12px;
+}
+
+.list-item a{
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 8px;
+}
+
+.list-item .fa{
+		color: #007bff;
+}

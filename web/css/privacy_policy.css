@@ -1,0 +1,119 @@
+body{
+	margin:0 ;
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 576px) {
+
+.list-item{
+	 margin-left: 16px;
+}
+
+.list-heading{
+    margin-left: 16px;
+}	
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { ... }
+
+#privacy{
+	margin-top: 100px;
+	padding-bottom: 125px;
+	background: #e9ebec;
+	height: auto;
+	font-family: 'Oxygen', sans-serif;
+	color: #808080;
+}
+#site{
+	margin-top: 75px;
+	padding-bottom: 125px;
+	background: #e9ebec;
+	height: auto;
+}
+
+.row{
+	min-width: 100%;
+	height: auto;
+}
+
+.brand_name{
+	text-align: center;
+	margin-top: 50px;
+	color: #007bff;
+}
+
+.company_name{
+	text-align: center;
+	color: #808080;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+.list{
+	margin-top: 50px;
+}
+
+.list .android{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.list .android .fa{
+	color: #007bff;
+}
+
+.list .android h6{
+     margin-top: 8px;
+     margin-left: 8px;
+     color: #808080;
+}
+
+.list-heading{
+    color: #808080;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.list-item{
+      	margin-top: 12px;
+}
+
+.list-item a{
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 8px;
+}
+
+.list-item .fa{
+		color: #007bff;
+}
+
+#con{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#con_1{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}

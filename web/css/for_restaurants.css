@@ -1,0 +1,204 @@
+body{
+	margin:0 ;
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 576px) {
+
+.list-item{
+	 margin-left: 16px;
+}
+
+.list-heading{
+    margin-left: 16px;
+}	
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+	.con_img img {display:none}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { ... }
+
+
+
+.btn-space {
+    margin-right: 5px;
+}
+
+.container-fluid{
+	  top: -130px; /* Moves the image 2px closer to the top of the page */
+}
+
+#main_background{
+	background-image: url("/web/img/for_restaurants_bg.jpg");
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 811px;
+    position: relative; /* Declared position allows for location changes */
+    margin-top: -100px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#main_container{
+     margin-top: 150px;
+     overflow: hidden;
+}
+
+.con_img{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 150px;
+}
+
+.text_instruction{
+	margin-top: 150px;
+	color:white;
+	display: block;
+	font-family: 'Oxygen', sans-serif;
+	text-align: left;
+}
+
+.para{
+	margin-top: 0px;
+}
+
+.para_2{
+	margin-top: 50px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.become_partner{
+    margin-top: 50px;
+}
+
+.light-text{
+	font-weight: 100;
+	line-height: 25px;
+}
+
+#become_p{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.para_3{
+	margin-top: 50px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#workflow{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#workflow .first .heading{
+    margin:16px;
+	color: #007bff;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#workflow .first .under_heading{
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+/*bottom site map*/
+
+#site{
+	margin-top: 100px;
+	padding-bottom: 125px;
+	background: #e9ebec;
+	height: auto;
+}
+
+.row{
+	min-width: 100%;
+	height: auto;
+}
+
+.brand_name{
+	text-align: center;
+	margin-top: 50px;
+	color: #007bff;
+}
+
+.company_name{
+	text-align: center;
+	color: #808080;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+.list{
+	margin-top: 50px;
+}
+
+.list .android{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.list .android .fa{
+	color: #007bff;
+}
+
+.list .android h6{
+     margin-top: 8px;
+     margin-left: 8px;
+     color: #808080;
+}
+
+.list-heading{
+    color: #808080;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.list-item{
+      	margin-top: 12px;
+}
+
+.list-item a{
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 8px;
+}
+
+.list-item .fa{
+		color: #007bff;
+}
+
+#con{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#con_1{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
