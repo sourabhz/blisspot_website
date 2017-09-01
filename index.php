@@ -10,9 +10,7 @@
 
     <link rel="stylesheet" href="index.css" type="text/css">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto|Mukta+Mahee" rel="stylesheet">
 
      <link rel="stylesheet" href="/web/font-awesome/css/font-awesome.min.css">
   
@@ -43,7 +41,7 @@
            </ul>
            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                    <li class="nav-item active">
-                       <a class="btn btn-space btn-primary" href="/web/php/for_restaurants.php" role="button">For Restaurants</a>
+                       <a class="btn btn-space btn-primary" href="/web/php/for_restaurants.php" role="button">Add My Restaurant</a>
                    </li>
                    <li class="nav-item active">
                        <a class="btn btn-space btn-primary" href="#" role="button">Log In</a>
@@ -72,15 +70,15 @@
 
       <div id="workflow" class="row">
            <div class="first col-sm-4">
-               <div class="heading"><strong><font size="4">Find best food</font></strong></div><div class="under_heading">Search for
-                  name, kind of food, tags, places,etc.</div>
+               <div class="heading"><strong><h4>Find best food</h4></strong></div><div class="under_heading"><h6>Search for
+                  name, kind of food, tags, places,etc.</h6></div>
                </div>
               <div class="first col-sm-4">
-                    <div class="heading"><strong><font size="4">3 step process</font></strong></div><div class="under_heading">Book a table, order food and pay online with &#8377; 0 service fee.</div>
+                    <div class="heading"><strong><h4>3 step process</h4></strong></div><div class="under_heading"><h6>Book a table, order food and pay online with &#8377; 0 service fee.</h6></div>
              </div>
              <div class="first col-sm-4">
-                   <div class="heading"><strong><font size="4">Get Blisspot's hospitality</font></strong></div><div class="under_heading">Blisspot gurantee best customer experience and hospitality 
-                   services in its restaurants.</div>
+                   <div class="heading"><strong><h4>Get Blisspot's hospitality</h4></strong></div><div class="under_heading"><h6>Blisspot gurantee best customer experience and hospitality 
+                   services in its restaurants.</h6></div>
              </div>
      </div>  
 
@@ -123,23 +121,20 @@
   <div id="site" class="row"> 
            <div id="con" class="container col-sm-3"> 
                  <div class="brand_name">
-                               <font size="6"><strong>Blisspot</strong></font>
+                              <a href="/index.php"><font size="6"><strong>Blisspot</strong></font></a>
                  </div>
                  <div class="company_name">
-                               <font size="2">2017 &#169; Blisspot Inc.</font>
+                               <font size="2">2017 &#169; Blisspot Worldwide Inc.</font>
                  </div>
            </div>  
            <div class="container col-sm-2"> 
                  <div class="list">
                                 <div class="list-heading">BLISSPOT</div>
                                 <div class="list-item">
-                                  <a href="#">About Us</a>
+                                  <a href="/web/php/about_us.php">About Us</a>
                                 </div>
                                 <div class="list-item">
-                                  <a href="#">FAQ</a>
-                                </div>
-                                <div class="list-item">
-                                  <a href="#">Terms Of Service</a>
+                                  <a href="/web/php/terms_of_service.php">Terms Of Service</a>
                                 </div>
                                 <div class="list-item">
                                   <a href="/web/php/privacy_policy.php">Privacy Policy</a>
@@ -150,7 +145,7 @@
                  <div class="list">
                                 <div class="list-heading">PARTNER WITH US</div>
                                 <div class="list-item">
-                                  <a href="#">For Restaurants</a>
+                                  <a href="/web/php/for_restaurants.php">Add My Restaurant</a>
                                 </div>
                                 <div class="list-item">
                                   <a href="#">For Business</a>

@@ -109,14 +109,17 @@ body{
     margin:16px;
 	color: #007bff;
 	text-align: center;
-	font-family: 'Oxygen', sans-serif;
+    font-family: 'Mukta Mahee', sans-serif;
 }
 
 #workflow .first .under_heading{
-	font-family: 'Oxygen', sans-serif;
 	text-align: center;
-	font-weight: 600;
 	margin-bottom: 16px;
+	font-family: 'Roboto', sans-serif;	
+}
+
+.first h6{
+    	line-height: 25px;
 }
 
 /*bottom site map*/
@@ -137,6 +140,11 @@ body{
 	text-align: center;
 	margin-top: 50px;
 	color: #007bff;
+}
+
+.brand_name a{
+	text-decoration: none;
+	color: inherit;
 }
 
 .company_name{
