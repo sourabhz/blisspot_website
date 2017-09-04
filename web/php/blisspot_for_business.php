@@ -96,6 +96,17 @@
            </div>  
   </div>
   </div>
+  <div class="food_table"><img src="food_table.jpg" height=100% width=100%></div>
+<div class="expand_your" id="expand_your"> Use facilities of provided by BlissPot for Restaurants.</div>
+<div class="give_us_info">Let is know about your requirements we will <br> try to fullfill</div>
+<form class="info_form" id="info_form">
+<input type="text" placeholder="Company name" required><br><br>
+<input type="text" placeholder="Permanent address"><br><br>
+<input type="text" placeholder="Contact name" required><br><br>
+<input type="email" placeholder="email address"><br><br>
+<input type="text" placeholder="contact number" required><br><br>
+<input type="submit" value="submit">
+</form>
          <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
