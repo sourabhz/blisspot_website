@@ -2,32 +2,6 @@ body{
 	margin:0 ;
 }
 
-/* Portrait phones and smaller */
-@media (max-width: 576px) {
-
-.list-item{
-	 margin-left: 16px;
-}
-
-.list-heading{
-    margin-left: 16px;
-}	
-
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) { 
-
-}
-
-/*Large devices (desktops, 992px and up)*/
-@media (max-width: 992px) { 
-	
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (max-width: 1200px) { ... }
-
 #privacy{
 	margin-top: 100px;
 	padding-bottom: 50px;
@@ -67,6 +41,7 @@ body{
 
 .row{
 	min-width: 100%;
+	margin-right: 16px;
 	height: auto;
 }
 
@@ -143,4 +118,28 @@ body{
 	display: flex;
 	align-items: center;
     justify-content: center;
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { ... }
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 576px) {	
+	.list-item{
+	 margin-left: 16px;
+}
+
+   .list-heading{
+    margin-left: 16px;
 }

@@ -23,7 +23,7 @@
 
 
         <nav  class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="background-color: #3794eb">
-            <a class="navbar-brand" href="/index.php"><font size="5">Blisspot</font></a>
+            <a class="navbar-brand" href="/index.php"><font size="5">PictureTowns</font></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
@@ -45,18 +45,18 @@
       <div id="privacy" class="container">
          <h4>Privacy Policy</h4>
          <hr>
-       <h5>What Personal Information Does Blisspot Collect?</h5>
+       <h5>What Personal Information Does PictureTowns Collect?</h5>
         <h6 class="paras">
         <p>Your phone number.Your location information only if you will allow us.Any personal information that you choose to provide such as name, email, gender.</p>
-        <p>Information about your device such as hardware information, operating system version, carrier info if available. Any information(mandatory-phone number. Optional information if user wishes to disclose- name, email, gender) collected from the end user is stored on servers of Blisspot only. No information collected by Blisspot from the end user will be sold/rented/shared with a third party.</p></h6>
+        <p>Information about your device such as hardware information, operating system version, carrier info if available. Any information(mandatory-phone number. Optional information if user wishes to disclose- name, email, gender) collected from the end user is stored on servers of PictureTowns only. No information collected by PictureTowns from the end user will be sold/rented/shared with a third party.</p></h6>
         <hr>
         <h5>Why is this information collected?</h5>
 
-        <h6 class="paras">Data collected from the end user (mandatory- phone number, optional- name, email, gender) is stored on Blisspot's server. This data will be retained by Blisspot till the end user sends an Account Deletion Request.
-        <p>Your Services account will be associated with your phone number and this account will be used for all our Services that you use. Information that you provide for example location information we optimise all of our services according to your location and we here at Blisspot give you the best results related to the best food item around and customized feed and search results according to your location. 
+        <h6 class="paras">Data collected from the end user (mandatory- phone number, optional- name, email, gender) is stored on PictureTowns server. This data will be retained by PictureTowns till the end user sends an Account Deletion Request.
+        <p>Your Services account will be associated with your phone number and this account will be used for all our Services that you use. Information that you provide for example location information we optimise all of our services according to your location and we here at PictureTowns give you the best results related to the best food item around and customized feed and search results according to your location. 
         </p>
         <p>We may also draw upon this Personal Information in order to adapt the Services of our community to your needs, to research the effectiveness of our network and Services, and to develop new tools for the community.</p>
-        <p>The contact information you provide may be used by Blisspot to send you timely and relevant promotions. By accepting this privacy policy, you give Blisspot the right to contact you by SMS or e-mail for such promotions.</p> 
+        <p>The contact information you provide may be used by PictureTowns to send you timely and relevant promotions. By accepting this privacy policy, you give PictureTowns the right to contact you by SMS or e-mail for such promotions.</p> 
         </h6>
         <hr>
         <h5>How is My Information Shared?</h5>
@@ -66,12 +66,12 @@
         <p>
          Friends and Followers:</p>
          <p>
-         Followers and people/brands you follow on Blisspot: Followers can see your publicly available information and you can see the publicly available information of users you follow.
+         Followers and people/brands you follow on PictureTowns: Followers can see your publicly available information and you can see the publicly available information of users you follow.
          </p>
-         <p>Blisspot aims to make each and every restaurant to give high end quality services to customers and Blisspot believes that it is a brand for Quality and
+         <p>PictureTowns aims to make each and every restaurant to give high end quality services to customers and PictureTowns believes that it is a brand for Quality and
          Service.</p>
          <p>
-         Blisspot aims to provide best items inside of restaurants with the information like if user's friends and followers had tried something before and provided a mini-review which will provide a brief idea related to every item present at any restaurant in the city.</p>
+         PictureTowns aims to provide best items inside of restaurants with the information like if user's friends and followers had tried something before and provided a mini-review which will provide a brief idea related to every item present at any restaurant in the city.</p>
          <p>
          <p>
           <strong>Publicly Available Information</strong>
@@ -85,21 +85,21 @@
           The Services deal with location, so in order to work, the Services need to know your location. Whenever you open and use/interact with our apps on your mobile device or go to one of our Sites, we use the location information from your mobile device or browser (e.g., latitude and longitude) to tailor the Services experience to your current location (i.e., we'll show you a list of nearby locations). This information is NOT shared in a form that is identified with you with others unless you are using a service that they offer.
           </p>
           <p>
-          <strong>Sharing Location with the Blisspot app</strong>
+          <strong>Sharing Location with the PictureTowns app</strong>
           </p>
           <p>
-          Your real-time location is not shared with anyone on the Blisspot app in a form that identifies you.If you use a service from one of our merchants e.g. providing a mini-review, like or otherwise interact with a place, users may infer that you have been to that location. Some content, like mini-reviews, are time stamped and other users could use that information to infer when you were at a place even though mini-reivews can be posted when you aren't at the place you are leaving a tip about.
+          Your real-time location is not shared with anyone on the PictureTowns app in a form that identifies you.If you use a service from one of our merchants e.g. providing a mini-review, like or otherwise interact with a place, users may infer that you have been to that location. Some content, like mini-reviews, are time stamped and other users could use that information to infer when you were at a place even though mini-reivews can be posted when you aren't at the place you are leaving a tip about.
           </p>
           <p>
           <strong>Your Location History</strong>
           </p>
           <p>
-          We store your location history to provide you better quality results. This information is treated as private under any and all circumstances and is NEVER shared. The user can enable/disable location services from their mobile device and use the Static Location service offered by Blisspot App to select any location from a set of predefined locations.</p>
+          We store your location history to provide you better quality results. This information is treated as private under any and all circumstances and is NEVER shared. The user can enable/disable location services from their mobile device and use the Static Location service offered by PictureTowns App to select any location from a set of predefined locations.</p>
           <p>
           <strong>Customer grievances</strong>
           </p>
           <p>
-          Any grievances/complaints should be addressed to support@blisspot.com
+          Any grievances/complaints should be addressed to support@PictureTowns.com
           </p>
           </h6>
       </div>
@@ -107,15 +107,15 @@
        <div id="site" class="row"> 
            <div id="con" class="container col-sm-3"> 
                  <div class="brand_name">
-                              <a href="/index.php"><font size="6"><strong>Blisspot</strong></font></a>
+                              <a href="/index.php"><font size="6"><strong>PictureTowns</strong></font></a>
                  </div>
                  <div class="company_name">
-                               <font size="2">2017 &#169; Blisspot Worldwide Inc.</font>
+                               <font size="2">2017 &#169; PictureTowns Worldwide Inc.</font>
                  </div>
            </div>  
            <div class="container col-sm-2"> 
                  <div class="list">
-                                <div class="list-heading">BLISSPOT</div>
+                                <div class="list-heading">PictureTowns</div>
                                 <div class="list-item">
                                   <a href="/web/php/about_us.php">About Us</a>
                                 </div>
@@ -131,7 +131,7 @@
                  <div class="list">
                                 <div class="list-heading">PARTNER WITH US</div>
                                 <div class="list-item">
-                                  <a href="#">Add My Restaurant</a>
+                                  <a href="/web/php/for_restaurants.php">Add My Restaurant</a>
                                 </div>
                                 <div class="list-item">
                                   <a href="#">For Business</a>

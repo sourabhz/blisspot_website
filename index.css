@@ -2,63 +2,6 @@ body{
 	margin:0 ;
 }
 
-/* Portrait phones and smaller */
-@media (max-width: 576px) {
-	#main_background_index{
-	background-image: url("/web/img/index_background_phone.jpg");
-	background-repeat: no-repeat;
-	min-width: 100%;
-	min-height: 811px;
-	margin-top: -100px;
-    position: relative; /* Declared position allows for location changes */
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-.list-item{
-	 margin-left: 16px;
-}
-
-.list-heading{
-    margin-left: 16px;
-}
-
-.how_it_works h5{
-	margin-top: 0;
-	margin-left: 16px;
-}	
-
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) { 
-.app_content{
-	height: auto;
-	min-width: 100%;
-}
-
-}
-
-/*Large devices (desktops, 992px and up)*/
-@media (max-width: 992px) { 
-
-.app_img img {display:none}
-
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (max-width: 1200px) { ... }
-
-
-.btn-space {
-    margin-right: 5px;
-}
-
-.container-fluid{
-	  top: -130px; /* Moves the image 2px closer to the top of the page */
-}
 
 #main_background_index{
 	background-image: url("/web/img/index_background.jpg");
@@ -73,16 +16,27 @@ body{
     -o-background-size: cover;
 }
 
+
+.btn-space {
+    margin-right: 5px;
+}
+
+.container-fluid{
+	  top: -130px; /* Moves the image 2px closer to the top of the page */
+}
+
 #container{
-      margin-top: 350px;
+      margin-top: 325px;
       min-width: 100%;
       text-align: center;
+
 }
 
 .main_text{
 	position: relative;
 	color: white;
-	text-shadow: 2px 2px 4px #000000;
+    font-family: 'Oxygen', sans-serif;
+    text-shadow: 1px 1px 4px #000000;
     }
 
 .below_main_text{
@@ -93,12 +47,22 @@ body{
 	margin-top: 40px;
 	margin-left: 16px;
 	margin-right: 16px;
-	text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 4px #000000;
     }     
+
 
 .find_food{
 	position: relative;
-	margin-top: 40px;
+	margin-top: 50px;
+	display:flex;
+    justify-content: center;
+}
+
+.or {
+  border-left: solid #ffffff;
+  border-width: 2px;
+  margin-right: 10px;
+  margin-left: 4px;
 }
 
 .darkBG{
@@ -121,6 +85,7 @@ body{
 	text-align: center;
 	margin-bottom: 16px;
 	font-family: 'Roboto', sans-serif;	
+	color: #484848;
 }
 
 .first h6{
@@ -174,7 +139,8 @@ body{
 	display: flex;
 	align-items: left;
     justify-content: left;
-	font-family: 'Oxygen', sans-serif;
+    color: #484848;
+	font-family: 'Roboto', sans-serif;
 }
 
 .how_it_works h5{
@@ -190,6 +156,7 @@ body{
 
 .get_android{
 	margin-bottom: 16px;
+	color: #484848;
 }
 
 .android{
@@ -206,7 +173,7 @@ body{
 .ins_desktop{
 	    margin-top: 24px;
 		display: flex;
-		color: #808080;
+		color: #767676;
 	    align-items: center;
         justify-content: center;
 }
@@ -251,7 +218,7 @@ body{
 
 .company_name{
 	text-align: center;
-	color: #808080;
+	color: #767676;
 	margin-top: 8px;
 	margin-bottom: 20px;
 }
@@ -267,11 +234,11 @@ body{
 .list .android h6{
      margin-top: 8px;
      margin-left: 8px;
-     color: #808080;
+     color: #767676;
 }
 
 .list-heading{
-    color: #808080;
+    color: #767676;
 	text-align: left;
 	font-size: 14px;
 	font-weight: 500;
@@ -293,3 +260,157 @@ body{
 .list-item .fa{
 		color: #007bff;
 }
+
+/*Carousel*/
+
+.card{
+	border: 0;
+}
+
+.card-block{
+	padding: 8px;
+}
+
+
+/*best stuff till now */
+
+.card-block h6{
+    font-family: 'Oxygen', sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+.likes {
+  margin-top: -4px;
+  display:flex;
+  justify-content: center;
+  padding: 3px;
+}
+
+.likes h6{
+	margin-top: 4px;
+	color: #484848;
+}
+
+.heart{
+	color: #ed4956;
+	margin-right: 8px;
+}
+
+.wrapper{
+  width:100%;
+  text-align:center;
+}
+
+.wrapper h3{
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 8px;
+	line-height: 40px;
+    color: #484848;
+}
+.caro{
+  width:75%;
+  margin:0px auto;
+  visibility: hidden;
+}
+
+/*for lazy loading */
+.caro.slick-initialized{
+    visibility: visible;
+}
+
+.card-title{
+     color: #484848;
+}
+
+.slick-slide{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.slick-slide img{
+  width:100%;
+  height: 125px;
+}
+
+.slick-frame {
+  visibility: hidden;
+}
+
+.slick-list{
+	margin-top: 32px;
+	margin-bottom: 16px;
+}
+
+.slick-prev:before, .slick-next:before{ 
+    color:#007bff !important;
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+
+.app_img img {display:none}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+.app_content{
+	height: auto;
+	min-width: 100%;
+}
+
+#container{
+      margin-top: 300px;
+      min-width: 100%;
+      text-align: center;
+}
+
+}
+
+/* Portrait phones and smaller */
+@media screen and (max-width: 480px) {
+
+#main_background_index{
+	background-image: url("/web/img/index_background_phone.jpg");
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 811px;
+	margin-top: -100px;
+    position: relative; /* Declared position allows for location changes */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.slick-slide img{
+  width:100%;
+  height: 100px;
+}
+
+#container{
+      margin-top: 250px;
+      min-width: 100%;
+      text-align: center;
+}
+
+.list-item{
+	 margin-left: 16px;
+}
+
+.list-heading{
+    margin-left: 16px;
+}
+
+.how_it_works h5{
+	margin-top: 0;
+	margin-left: 16px;
+}	
+
+}
+

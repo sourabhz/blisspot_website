@@ -19,7 +19,7 @@
 
 
         <nav  class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="background-color: #007bff">
-         <a class="navbar-brand" href="/index.php"><font size="5">Blisspot</font><font size="3"> (For Restaurants)</font></a>
+         <a class="navbar-brand" href="/index.php"><font size="5">PictureTowns</font><font size="3"> (For Restaurants)</font></a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
            </button>
@@ -52,7 +52,7 @@
                </p>
                <p class="para">
                   <h2>
-                     Blisspot for Restaurants.
+                     PictureTowns for Restaurants.
                   </h2>
                </p>
                <div class="para_2">
@@ -93,15 +93,15 @@
       <div id="site" class="row"> 
            <div id="con" class="container col-sm-3"> 
                  <div class="brand_name">
-                               <a href="/index.php"><font size="6"><strong>Blisspot</strong></font></a>
+                               <a href="/index.php"><font size="6"><strong>PictureTowns</strong></font></a>
                  </div>
                  <div class="company_name">
-                               <font size="2">2017 &#169; Blisspot Worldwide Inc.</font>
+                               <font size="2">2017 &#169; PictureTowns Worldwide Inc.</font>
                  </div>
            </div>  
            <div class="container col-sm-2"> 
                  <div class="list">
-                                <div class="list-heading">BLISSPOT</div>
+                                <div class="list-heading">PictureTowns</div>
                                 <div class="list-item">
                                   <a href="/web/php/about_us.php">About Us</a>
                                 </div>

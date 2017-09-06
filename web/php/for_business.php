@@ -8,66 +8,44 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="/web/css/for_business.css" type="text/css">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
      <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 
      <link rel="stylesheet" href="/web/font-awesome/css/font-awesome.min.css">
-
-     <link rel="stylesheet" href="/web/css/about_us.css">
-
+  
   </head>
-  <body>
 
+<body>
+   <nav  class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="background-color: #3794eb">
+         <a class="navbar-brand" href="/index.php"><font size="5">PictureTowns</font><font size="3"> (For Business)</font></a>
+           
+        <div class="download_app">Download App</div>
+<div class="log_in">Log In</div>
+<div class="sign_up">Sign Up</div>
 
-        <nav  class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="background-color: #3794eb">
-            <a class="navbar-brand" href="/index.php"><font size="5">PictureTowns</font></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-               </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-           <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                   <li class="nav-item active">
-                       <a class="btn btn-space btn-primary" href="/web/php/for_restaurants.php" role="button">Add My Restaurant</a>
-                   </li>
-                   <li class="nav-item active">
-                       <a class="btn btn-space btn-primary" href="#" role="button">Log In</a>
-                   </li>
-                   <li class="nav-item active">
-                       <a class="btn btn-space btn-primary" href="#" role="button">Sign Up</a>
-                   </li>
-           </ul>
-        </div>
       </nav>
+<div class="bgi1"><img src="/web/img/background_image_business.jpg" width=100% height=100%></div>
+<a class="website_name" id="website_name" href="index.php">PictureTowns</a>
+<div class="for_business">FOR BUSINESS</div>
 
-      <div id="privacy" class="container">
-         <h4>About Us</h4>
-         <hr>
-       <h5>What is PictureTowns ?</h5>
-        <h6 class="paras">
-        <p>PictureTowns helps those people who don't like waiting for food in restaurants, we do this by removing the time of making the food when you are already present in restaurant, just use PictureTowns site or app order food and book a table before you arrive at the restaurant.</p>
-        <p>Restaurants partnered with PictureTowns will cook food just sometime before your booking timings, so that you can just visit and enjoy food. You don't even have to bother for payments because we provide most secured online payment methods, so that you can pay for your food before you arrive at the restaurant.</p></h6>
-        <hr>
-        <h5>PictureTowns Experience</h5>
-        <h6 class="paras">
-        <p>We here at PictureTowns work on only one thing and i.e. making our users dining experience better. When you use our service and place your order in any of the PictureTowns partnered restaurant and when you will visit restaurant, you will get a VIP experience and you can enjoy food and leave anytime at your leisure.</p> 
-        </h6>
-        <hr>
-        <h5>PictureTowns for small businesses</h5>
-        <h6 class="paras">
-        <p>PictureTowns believes that each restaurant should be as good to eat food as a five star hotel in the city which you can't visit due to some reason and that's why we here at PictureTowns works on services of every kind in our partnered restaurants to take it to best level and serve our users with the best.</p> </h6>
-        <hr>
-        <h5> Helping Waiters</h5>
-        <h6 class="paras">
-        <p>We help waiters in restaurants by training them and providing them a descent amount so that there will be a reason to serve better and faster.</p>
-        <p>PictureTowns works on everything to make your experience in PictureTowns partnered restaurants better to best and don't suck your valuable time.</p>
-        </h6>
-      </div>
-
-       <div id="site" class="row"> 
+<div class="the_best_meal">The best meal for your  employees <br> and clients</div>
+<div class="lunch_at_restaurant">Lunch at restaurant within minutes.</div>
+<div class="it_is_very">It is very easy to manage.</div>
+<div class="join_us">join us</div>
+<div class="save_time">Save time</div>
+<div class="save_money">Save Money</div>
+<div class="increase_throughput">Increase throughput</div>
+<div class="save_time_text">PictureTowns gives you facility to deliver food in <br>an hour in your locality.</div>
+<div class="save_money_text">Ordering in bulk can get you a <br>large amount of discount. </div>
+<div class="increase_throughput_text">Don't waste time in roaming for food.</div>
+  <div class="container-fluid">
+ <div id="site" class="row"> 
            <div id="con" class="container col-sm-3"> 
                  <div class="brand_name">
-                              <a href="/index.php"> <font size="6"><strong>PictureTowns</strong></font></a>
+                               <a href="/index.php"><font size="6"><strong>PictureTowns</strong></font></a>
                  </div>
                  <div class="company_name">
                                <font size="2">2017 &#169; PictureTowns Worldwide Inc.</font>
@@ -79,7 +57,7 @@
                                 <div class="list-item">
                                   <a href="/web/php/about_us.php">About Us</a>
                                 </div>
-                                   <div class="list-item">
+                                <div class="list-item">
                                   <a href="/web/php/terms_of_service.php">Terms Of Service</a>
                                 </div>
                                 <div class="list-item">
@@ -91,7 +69,7 @@
                  <div class="list">
                                 <div class="list-heading">PARTNER WITH US</div>
                                 <div class="list-item">
-                                  <a href="/web/php/for_restaurants.php">Add My Restaurant</a>
+                                  <a href="#">Add My Restaurant</a>
                                 </div>
                                 <div class="list-item">
                                   <a href="#">For Business</a>
@@ -117,11 +95,12 @@
                  </div>
            </div>  
   </div>
-
-    <!-- Optional JavaScript -->
+  </div>
+         <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  </body>
+
+</body>
 </html>

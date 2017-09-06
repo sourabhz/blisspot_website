@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+}
+
+.food_item{
+	background-color: #e9ebec;
+	width: 50%;
+	height: auto;
+	margin-top: 60px;
+	float: left;
+}
+
+#map-container{
+       top: 60px;
+       width: 50%;
+	   min-height: 650px;
+       position: fixed;
+       float: right;
+       right:0;
+}
+
+
+#map{
+	width: 100%;
+	min-height: 625px;
+	right:0;
+	background-color: white;
+}
+
+.search{
+	display: flex;
+	align-items: left;
+	margin-left: 16px;
+	justify-content: left;
+}
+
+.search .form-inline{
+	margin-top:16px;
+	margin-bottom: 16px;
+}
+
+.search .form-inline h5{
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-right: 16px;
+      color: #767676;
+      font-family: 'Roboto', sans-serif;
+}
+
