@@ -8,40 +8,76 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="blisspot_for_business.css" type="text/css">
+    <link rel="stylesheet" href="/web/php/blisspot_for_business.css" type="text/css">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto|Mukta+Mahee" rel="stylesheet">
 
      <link rel="stylesheet" href="/web/font-awesome/css/font-awesome.min.css">
   
   </head>
+  <body>
 
-<body>
-   <nav  class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="background-color: #3794eb">
-         <a class="navbar-brand" href="/index.php"><font size="5">Blisspot</font><font size="3"> (For Business)</font></a>
-           
-        <div class="download_app">Download App</div>
-<div class="log_in">Log In</div>
-<div class="sign_up">Sign Up</div>
 
-      </nav>
-<div class="bgi1"><img src="background_image_business.jpg" width=100% height=100%></div>
-<a class="website_name" id="website_name" href="index.php">blisspot</a>
-<div class="for_business">FOR BUSINESS</div>
+ <nav  class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="background-color: #3794eb">
+            <a class="navbar-brand" href="index.php"><font size="5">Blisspot</font> <sub>(Blisspot for business)<sub></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+			 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <hr>
+           <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                   <li class="nav-item active">
+                       <a class="btn btn-space btn-primary" href="/web/php/for_restaurants.php" role="button">Add My Restaurant</a>
+                   </li>
+                   <li class="nav-item active">
+                       <a class="btn btn-space btn-primary" href="#" role="button">Log In</a>
+                   </li>
+                   <li class="nav-item active">
+                       <a class="btn btn-space btn-primary" href="#" role="button">Sign Up</a>
+                   </li>
+           </ul>
+        </div>
+ </nav>
+<div id="main_background_business" class="bg_busi">
+	 <div id="box">
+	      <div class="the_best_meal"><h1>The best meal for your  employees <br> and clients<h1></div>
+          <div class="lunch_at_restaurant"><h3>Lunch at restaurant within minutes.<h3></div>
+          <div class="it_is_very"><h3>It is very easy to manage.<h3></div>
+          <div class="join_us"><button>join us</button></div>
+     </div>
+</div>
 
-<div class="the_best_meal">The best meal for your  employees <br> and clients</div>
-<div class="lunch_at_restaurant">Lunch at restaurant within minutes.</div>
-<div class="it_is_very">It is very easy to manage.</div>
-<div class="join_us">join us</div>
-<div class="save_time">Save time</div>
-<div class="save_money">Save Money</div>
-<div class="increase_throughput">Increase throughput</div>
-<div class="save_time_text">BlissPot gives you facility to deliver food in <br>an hour in your locality.</div>
-<div class="save_money_text">Ordering in bulk can get you a <br>large amount of discount. </div>
-<div class="increase_throughput_text">Don't waste time in roaming for food.</div>
-  <div class="container-fluid">
+<div id="why_blisspot">
+ <div class="first col-sm-4">	  
+	  <div class="heading"><b><h3>Save Money</h3></b></div>
+	  <div class="under_heading"><h5>Ordering in bulk can get you a <br>large amount of discount.</h5></div>
+</div>
+<div class="first col-sm-4">
+         <div class="heading"><b><h3>Increase throughput</h3></b></div>
+         <div class="under_heading"><h5>Don't waste time in roaming <br>for food.</h5></div>
+</div>
+ <div class="first col-sm-4">
+    <div class="heading"><b><h3>Save Time</h3></b></div>
+    <div class="under_heading"><h5>BlissPot gives you facility to deliver food in <br>an hour in your locality.</h5></div>
+</div>
+</div>
+
+<div id="mid_background_business"></div>
+
+<div class="form">
+<div class="expand_your" id="expand_your"> Use facilities of provided by BlissPot for Restaurants.</div>
+<div class="give_us_info">Let us know about your requirements we will <br> try to fullfill</div>
+<form class="info_form" id="info_form">
+<input type="text" placeholder="Company name" required><br><br>
+<input type="text" placeholder="Permanent address"><br><br>
+<input type="text" placeholder="Contact name" required><br><br>
+<input type="email" placeholder="email address"><br><br>
+<input type="text" placeholder="contact number" required><br><br>
+<input type="submit" value="submit">
+</form>
+</div>
+
  <div id="site" class="row"> 
            <div id="con" class="container col-sm-3"> 
                  <div class="brand_name">
@@ -95,23 +131,10 @@
                  </div>
            </div>  
   </div>
-  </div>
-  <div class="food_table"><img src="food_table.jpg" height=100% width=100%></div>
-<div class="expand_your" id="expand_your"> Use facilities of provided by BlissPot for Restaurants.</div>
-<div class="give_us_info">Let is know about your requirements we will <br> try to fullfill</div>
-<form class="info_form" id="info_form">
-<input type="text" placeholder="Company name" required><br><br>
-<input type="text" placeholder="Permanent address"><br><br>
-<input type="text" placeholder="Contact name" required><br><br>
-<input type="email" placeholder="email address"><br><br>
-<input type="text" placeholder="contact number" required><br><br>
-<input type="submit" value="submit">
-</form>
-         <!-- Optional JavaScript -->
+	  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
-</body>
+	</body>
 </html>
