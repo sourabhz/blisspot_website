@@ -1,0 +1,264 @@
+#main_background_business{
+	background-image: url("/web/img/background_image_business.jpg");
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 811px;
+	margin-top: -100px;
+    position: relative; /* Declared position allows for location changes */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+#box{padding-top:200px;
+	margin-top: 160px;
+      min-width: 100%;
+      text-align: center;
+	  color:white;
+	  padding-bottom:50px;
+	  text-shadow:1px 2px 2px #000 ;
+}
+.lunch_at_restaurant{
+	padding-top:30px;
+}
+.it_is_very{
+	padding-bottom:30px;
+}
+.join_us{
+	
+	padding-bottom:30px;
+}
+.join_us button{
+	padding:10px;
+	color:white;
+	background-color: #1976d2;
+	border:none;
+	cursor:pointer;
+	border:1px solid #1976d2;
+	border-radius:5px;
+}
+.join_us button:hover{
+	background-color: #152089;
+}
+#why_blisspot{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+#why_blisspot .first{
+	float:left;
+
+}
+
+#why_blisspot .first .heading{
+    margin:16px;
+	color: #007bff;
+	text-align: center;
+    font-family: 'Mukta Mahee', sans-serif;
+	
+}
+
+#why_blisspot .first .under_heading{
+	text-align: center;
+	margin-bottom: 16px;
+	font-family: 'Roboto', sans-serif;	
+}
+.first h5{
+		line-height: 25px;
+}
+#site{
+	margin-top: 125px;
+	padding-bottom: 150px;
+	background: #e9ebec;
+	height: auto;
+}
+
+#con{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#con_1{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.row{
+	min-width: 100%;
+	height: auto;
+}
+
+.brand_name{
+	text-align: center;
+	margin-top: 50px;
+	color: #007bff;
+}
+
+.brand_name a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.company_name{
+	text-align: center;
+	color: #808080;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+.list{
+	margin-top: 50px;
+}
+
+.list .android .fa{
+	color: #007bff;
+}
+
+.list .android h6{
+     margin-top: 8px;
+     margin-left: 8px;
+     color: #808080;
+}
+
+.list-heading{
+    color: #808080;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.list-item{
+      	margin-top: 12px;
+}
+
+.list-item a{
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 8px;
+}
+
+.list-item .fa{
+		color: #007bff;
+}
+.expand_your{
+	position:relative;
+	font-size:25px;
+	font-family:Georgia, serif;
+	text-align:center;
+	color:#1976d2;
+}
+.give_us_info{
+	position:relative;
+	font-family:Sans-serif;
+	font-size:20px;
+	color:black;
+	text-align:center;
+}
+.info_form{
+	position:relative;
+	margin-left:25%;
+
+	
+}
+.info_form input[type=text], input[type=number],input[type=email] {
+    width:70%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+	border-radius:3px;
+	
+}
+.info_form input[type=submit]{
+	 width: 70%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+	border-radius:5px;
+	background-color:#191099;
+	color:white;
+	font-size:25px;
+	font-family:Sans-serif;
+	margin-top:10px;
+}
+.info_form input[type=submit]:hover{
+	background-color:#1976d2;
+}
+#mid_background_business{
+	 position: relative;
+	background-image: url("food_table.jpg");
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 511px;
+	margin-top: 300px;
+     /* Declared position allows for location changes */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+.form{
+	margin:60px;
+}
+@media (max-width:575px){
+	.info_form{
+	position:relative;
+	margin-left:0%;
+
+	
+}
+	.info_form input[type=text], input[type=number],input[type=email] {
+    width:100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+	border-radius:3px;
+	
+}
+.info_form input[type=submit]{
+	 width: 100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+	border-radius:5px;
+	background-color:#191099;
+	color:white;
+	font-size:25px;
+	font-family:Sans-serif;
+	margin-top:10px;
+}
+.info_form input[type=submit]:hover{
+	background-color:#1976d2;
+}
+#mid_background_business{
+	 position: relative;
+	background-image: url("/web/img/food_table.jpg");
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 481px;
+	margin-top: 550px;
+     /* Declared position allows for location changes */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}	
+	
+}

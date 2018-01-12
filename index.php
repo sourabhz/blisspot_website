@@ -148,7 +148,7 @@
                                   <a href="/web/php/for_restaurants.php">Add My Restaurant</a>
                                 </div>
                                 <div class="list-item">
-                                  <a href="#">For Business</a>
+                                  <a href="/web/php/blisspot_for_business.php">For Business</a>
                                 </div>
                  </div>
            </div>  
